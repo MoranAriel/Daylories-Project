@@ -18,14 +18,14 @@ public class Meal {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
-    @ManyToOne
-    @ToString.Exclude
-    @JsonIgnore
-    @Enumerated(EnumType.STRING)
+//    @ManyToOne
+//    @ToString.Exclude
+//    @JsonIgnore
+//    @Enumerated(EnumType.STRING)
     private MealType mealType;
-    @ManyToMany
-    @ToString.Exclude
-    @JsonIgnore
+//    @ManyToMany
+//    @ToString.Exclude
+//    @JsonIgnore
     private List<String> foodItems;
 
 
